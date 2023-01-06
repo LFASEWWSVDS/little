@@ -1,0 +1,13 @@
+INP
+STA first
+INP
+STA second
+LDA first
+SUB second
+OUT
+LDA second
+SUB first
+OUT
+HLT
+first DAT
+second DAT
